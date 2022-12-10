@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+</head>
+<body style="background-color: darkslategrey;">
+    <!-- show img  -->
+    <div class="text-center" style="background-color:azure; text-align: center; margin-left: 20%; margin-right: 20%; padding: 20px;" >
+        <div class="text-center">
+            <img id="picture" src="data:image/jpeg;base64,{{ img_data }}">
+        </div>
+
+        <!-- results  -->
+        <h2 style="align-content: center;"> class =  {{ cls }} , confidence_score = {{ score }} </h2> 
+    </div>
+</body>
+</html>
